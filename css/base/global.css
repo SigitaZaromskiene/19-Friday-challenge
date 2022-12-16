@@ -16,4 +16,5 @@ body * {
 body {
   font-family: "Montserrat", sans-serif;
   color: #c4c4c4;
+  background-color: var(--body-color);
 }
