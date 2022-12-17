@@ -45,6 +45,7 @@ nav:hover * {
   align-items: center;
   gap: 12px;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .aside-flex:hover {
@@ -103,4 +104,5 @@ footer p {
   color: var(--main-blue-color);
   font-size: 11px;
   font-weight: 500;
+  margin-bottom: 10px;
 }
