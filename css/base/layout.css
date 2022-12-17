@@ -32,7 +32,9 @@ nav {
 nav:hover {
   max-width: 206px;
   transition: 1s all;
-  /* opacity: 1;  kodel neveikia????? */
+}
+nav:hover * {
+  opacity: 100%;
 }
 
 .aside-flex {
@@ -65,7 +67,7 @@ nav:hover {
   padding-left: 13px;
 }
 
-.aside-flex a {
+.hidden {
   color: var(--font-color);
   text-decoration: none;
   font-style: normal;
@@ -80,16 +82,19 @@ nav:hover {
 }
 
 footer {
-  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-end;
-  margin-bottom: 40px;
 }
 
 .long-border {
-  border: 1px solid var(--main-blue-color);
+  height: 30px;
+  border-bottom: 1px solid var(--main-blue-color);
   width: 346px;
   margin-bottom: 8px;
 }
