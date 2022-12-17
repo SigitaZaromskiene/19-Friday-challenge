@@ -32,7 +32,9 @@ nav {
 nav:hover {
   max-width: 206px;
   transition: 1s all;
-  /* opacity: 1;  kodel neveikia????? */
+}
+nav:hover * {
+  opacity: 100%;
 }
 
 .aside-flex {
